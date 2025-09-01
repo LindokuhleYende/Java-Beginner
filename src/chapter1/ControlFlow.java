@@ -38,6 +38,27 @@ public class ControlFlow {
             System.out.println("i is now " + i);
         }
 
+        // -----------------------------
+        // 3. Do something under a condition (if/else)
+        // -----------------------------
+
+        System.out.println("-----3. Do something under a condition (if/else)-----");
+        // IF/ELSE statement: check if x equals 10
+        if (x == 10) {
+            System.out.println("x must be 10");
+        } else {
+            System.out.println("x isn't 10");
+        }
+
+        // IF statement with two conditions:
+        // 1. x is less than 3 AND 2. name is equal to "Dirk"
+        if ((x < 3) && (name.equals("Dirk"))) {
+            System.out.println("Gently");
+        }
+
+        // This line will always run no matter what the conditions above were
+        System.out.println("This line runs no matter what");
+
 
     }
 }
