@@ -1,5 +1,6 @@
 package chapter1.Exercise;
 
+//Exercise 20
 public class CodeMagnets {
     public static void main(String[] args) {
         int x = 3;
@@ -14,7 +15,6 @@ public class CodeMagnets {
             }
             if(x==1){
                 System.out.print("d");
-                x = x-1;
             }
         }
     }
