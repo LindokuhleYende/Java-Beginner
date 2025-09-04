@@ -26,6 +26,7 @@ public class PoorDogTestDrive {
         // Create a new PoorDog object named 'one'
         PoorDog one = new PoorDog();
 
+        int x = 5;
         // Print the size of the dog using the getter method
         // Since 'size' was never set, it defaults to 0
         System.out.println("Dog size is " + one.getSize());
