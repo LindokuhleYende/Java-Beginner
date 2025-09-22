@@ -10,6 +10,9 @@ public class PlayerTestDrive {
 
         // Access static variable again, after creating a Player object
         System.out.println(Player.playerCount);  // Output: 1
+
+        Player two = new Player("LeeYende");
+        System.out.println(Player.playerCount);
     }
 }
 
